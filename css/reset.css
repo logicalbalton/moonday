@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+      margin: 0;
+	border: 0;
+	font-size: 100%;
+
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+
+}
+/*
+ol, ul {
+	list-style: none;
+}
+*/
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+
+/* .........................  Social media style  .........................*/
+.shareboxwrp{
+	display:none;
+	float:left;
+	width:100%;
+}
+.shareboxwrpin {
+
+    margin: 0 auto;
+    display: table;
+    width: 40px;
+
+}
+.social-media-main {
+	width: 50px;
+height: 240px;
+	float: left;
+	position: fixed;
+	bottom: 10px;
+	z-index: 1005;
+	right: 20px;
+	padding-top: 60px;
+}
+.shretle {
+	font-size: 11px;
+	font-family: arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 50px;
+	height:50px;
+	line-height:50px;
+	background-size:60% auto;
+	background-image:url(../images/share.svg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align: center;
+	background-color: #FFFFFF;
+	padding: 3px 0;
+	color: #fff;
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+	float:left;
+	position:absolute;
+	top:100px;
+	left:0;
+	cursor:pointer;
+	-moz-transition:all .2s linear .0s;
+	-webkit-transition:all .2s linear .0s;
+	transition:all .2s linear .0s;
+}
+.shretle.open {
+	top:0;
+	background-image:url(../images/close.svg);
+	
+}
+.social-media-ins {
+	width: 100%;
+	height: 180px;
+	float: left;
+	margin: 0px;
+}
+.social-media-head {
+	width: 100%;
+	height: auto;
+	float: left;
+	font-family: arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 110%;
+}
+.social-media-icon {
+	width: 40px;
+	height: 40px;
+	float: left;
+	cursor: pointer;
+	background-image: url(../images/social.svg);
+	background-size:50px auto;
+	background-repeat: no-repeat;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+
+margin-bottom: 5px;
+}
+.tw-clr {
+	background-position: -4px -107px;
+	background-color: #2caafe;
+}
+.gl-clr {
+	background-position: -4px -56px;
+	background-color: #fb443e;
+}
+.wt-clr {
+	background-position: -4px -159px;
+	background-color: #13b345;
+}
+.fb-clr {
+	background-color: #2b44a0;
+	background-position: -6px -5px;
+}
+/* .........................  /Social media style  .........................*/
+
+

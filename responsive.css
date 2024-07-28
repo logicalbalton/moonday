@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:800px){
+	.mob{display: none}
+	.desk{display:block }
+	
+	
+}
+@media only screen and (max-width:800px){
+
+	.desk{display: none !important}
+	.mob{display: block !important}
+			#rotate {
+        background-color: rgba(0,0,0);
+        height: 100%;
+        position: fixed;
+        top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;	
+        width: 100%;
+		z-index: 100000000000;
+		color: #fff	;
+	}
+}
+
+@media only screen and (max-width:640px){
+	.launcher-small-five-five{display: none}
+	.star{display: none !important}
+    .chandryan-main-title{
+        width: 100% !important;
+    }
+	.manorama-logo{max-width:240px !important}
+	.point-two{width:15%; background-color: #fff; position: absolute; left: 12%; bottom:-5% !important; min-height: 20px;}
+    .chandryan-moon{
+        width: 100% !important;
+		margin-bottom: 25px; margin-top: 25px;
+    }
+	.chandryan-moon img{width:85%; margin: 0 auto}
+    .chandryan-contianer-inner{
+        display: inherit !important
+    }
+	.st0{stroke-width: 2!IMPORTANT;}
+	.point-five-five {
+    width: 46% !important;
+    background-color: #fff;
+    position: absolute;
+    left: -2% !important;
+    top: -6% !important;
+    min-height: 20px;
+}
+    .chandryan-main-title h2{font-size: 50px !important;}
+    .fixedd-a, .fixed-b, .fixed-c, .fixed-d, .fixed-e, .fixed-f, .fixed-g, .fixed-h, .fixed-i, .fixed-j, .fixed-k, .fixed-l, .fixed-m, .fixed-n, .fixed-o, .fixed-p, .fixed-q, .fixed-u, .fixed-v, .fixed-x, .fixed-z, .fixed-history, .fixed-footer, .fixed-architech, .fixed-last{
+        left:0;
+        right:0;
+        top:0;
+        bottom:0; 
+    }
+	p{line-height: 24px !important;}
+	.chandrayan-2{bottom: -11% !important;}
+
+		
+	body{font-size: 18px !important;}
+	.chandrayan-2-sub-section h2{font-size: 35px !important}
+	.chandrayan-2-sub-section{padding-top: 20px !important}
+}
+
+
+@media only screen and (max-height:640px){
+	.chandryan-moon img{width:75%; margin: 0 auto}
+}
+
+@media only screen and (max-width:640px){
+    .mainfooter{padding-bottom: 0 !important}
+	.storylist-li {
+    width: 100% !important;
+        margin-bottom: 5px;
+    padding: 10px 0;
+}
+ .storyIn {
+    float: left;
+    width: 100%;
+    border: 1px solid #ddd;
+	 background-color: #fff
+}
+.social-media-main{right: 0!important; z-index: 10}
+	.storyImg {
+    float: left;
+    width: 100px;
+}
+	.storyDispn {
+    overflow: hidden;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-height: 36px;
+}
+	.cmlogo{
+		float: left;
+	}
+}
+/* only when orientation is in portrait mode */
+@media all and (orientation:landscape) {
+     #rotate{
+        display: block !important;
+    }
+}

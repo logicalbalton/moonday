@@ -1,0 +1,57 @@
+#chandrayaan3 {
+    padding: 20px;
+    background: linear-gradient(135deg, #000428, #004e92);
+    color: #ffffff; /* white text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px auto;
+    max-width: 800px; /* Center the section and restrict its width */
+}
+
+#chandrayaan3 h2 {
+    font-size: 2em;
+    color: #ffffff; /* Slightly darker for emphasis */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#chandrayaan3 ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+#chandrayaan3 li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    padding-left: 20px;
+    position: relative; /* Needed for custom bullet points */
+}
+
+#chandrayaan3 li::before {
+    content: "•"; /* Custom bullet point */
+    color: #007BFF; /* Blue color for bullet */
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#chandrayaan3 li p {
+    margin: 10px 0 0 20px; /* Indent the paragraph */
+    font-size: 1em;
+}
+
+#chandrayaan3 .images {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between images */
+    flex-wrap: wrap; /* Wrap images if they don't fit in one row */
+    margin-top: 20px;
+}
+
+#chandrayaan3 .images img {
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for images */
+    max-width: 100%;
+    height: auto; /* Ensure images maintain aspect ratio */
+}

@@ -1,0 +1,107 @@
+.mainfooter {
+
+  
+    background: #f2f2f2;
+
+	
+	padding:25px 0 25px 0;
+
+        
+
+}
+.storylist-ul{padding: 0}
+.mainfooter{list-style-type: none}
+.mainfooter p{margin:0px; line-height:auto; font-size:18px; color: #333}
+.efctremoved .mainfooter{
+	position: inherit;
+	top: inherit !important;
+	float: left;
+	
+}
+.mainfooter a{text-decoration:none}
+.footerDispn{
+	
+	text-align: center;
+	font-size: 16px;
+	
+
+}
+.footerDispn p{font-weight: bold}
+.relatedstorywrp {
+    width: 100%;
+    float: left;
+    /*margin-top: 30px;*/
+	/*margin-bottom: 30px;*/
+}
+.storylist-li {
+    float: left;
+    width: 33.333%;
+    padding: 0 10px 0 10px;
+	list-style: none
+}
+.storyLink {
+    text-decoration: none;
+}
+.storyDispn {
+    color: #333;
+    text-decoration: none;
+    
+    font-size: 19px;
+    margin-top: 10px;
+	line-height: 20px;
+}
+.inner-flex {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+      -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.footerIn {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.infopagelink, .copyrightp {
+    font-family: arial;
+	font-size: 15px;
+ 
+}
+.infopagelink {
+    display: block;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+}
+.infopagelink span {
+    font-style: italic;
+    font-weight: bold;
+    color: #00b9f1;
+}
+.copyrightp.roboto {
+    width: 100%;
+   
+    margin-bottom: 10px;
+    color: #999;
+}
+.redIn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 16px 15px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.efctremoved .boxtext.emptybox {
+    min-height: inherit;
+}
+.relatedstorywrp img{width:100%}
+.copyrightp.roboto{font-size:15px;}

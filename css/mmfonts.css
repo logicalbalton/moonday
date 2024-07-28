@@ -1,0 +1,30 @@
+/***Fonts Uploaded Start***/
+@font-face {
+    font-family: PanchariUni;
+    src: url("../fonts/PanchariUN.eot");
+    src: url("../fonts/PanchariUN.eot?#iefix") format("embedded-opentype"), url("../fonts/PanchariUN.ttf") format("truetype"), url("../fonts/PanchariUN.woff") format("woff"), url("../fonts/PanchariUN.svg") format("svg");
+    font-weight: normal; }
+  @font-face {
+    font-family: PanchariUni;
+    src: url("../fonts/PanchariUB.eot");
+    src: url("../fonts/PanchariUB.eot?#iefix") format("embedded-opentype"), url("../fonts/PanchariUB.ttf") format("truetype"), url("../fonts/PanchariUB.woff") format("woff"), url("../fonts/PanchariUB.svg") format("svg");
+    font-weight: bold; }
+  /***Fonts Uploaded End***/
+  
+  
+  /***Fonts Uploaded Start***/
+  @font-face {font-family:EGGIndulekhaUni;
+          src:url('../fonts/EGGIndulekha.eot');
+          src:url('../fonts/EGGIndulekha.eot?#iefix') format('embedded-opentype'),
+              url('../fonts/EGGIndulekha.ttf') format('truetype'), 
+              url('../fonts/EGGIndulekha.woff') format('woff'),
+              url('../fonts/EGGIndulekha.svg') format('svg');
+  }
+  /***Fonts Uploaded End***/
+  
+  .eggIndulekhaUni{
+      font-family:EGGIndulekhaUni;
+  }
+  .panchariUni{
+  font-family: PanchariUni;
+  }
