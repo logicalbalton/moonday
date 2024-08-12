@@ -80,11 +80,11 @@ height: 240px;
 	font-family: arial;
 	font-weight: bold;
 	text-transform: uppercase;
-	width: 200px;
-	height:200px;
+	width: 50px;
+	height:50px;
 	line-height:50px;
-	background-size:90% auto;
-	background-image:url(../images/share.png);
+	background-size:60% auto;
+	background-image:url(../images/share.svg);
 	background-repeat:no-repeat;
 	background-position:center center;
 	-moz-border-radius:50%;
@@ -129,8 +129,8 @@ height: 240px;
 	line-height: 110%;
 }
 .social-media-icon {
-	width: 40px;
-	height: 40px;
+	width: 100px;
+	height: 100px;
 	float: left;
 	cursor: pointer;
 	background-image: url(../images/social.svg);
