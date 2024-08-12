@@ -134,7 +134,7 @@ height: 240px;
 	float: left;
 	cursor: pointer;
 	background-image: url(../images/social.svg);
-	background-size:50px auto;
+	background-size:100px auto;
 	background-repeat: no-repeat;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
